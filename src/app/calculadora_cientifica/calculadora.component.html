@@ -1,0 +1,79 @@
+
+<h1>Calculadora cientifica</h1>
+<div>
+
+    <input type="number" name="operandoA"  [(ngModel)]="operandoA" required><br><br> 
+
+    <input type="number" name="operandoA=" [(ngModel)]="operandoB" required><br><br>
+
+
+
+<div>
+    <input type="button" value="Sumar" (click)="ngResult()">
+    {{result_suma}}    
+</div><br>
+
+<div>
+    <input type="submit" value="Resta" (click)="ngResult()">
+    {{result_resta}}
+</div><br>
+
+<div>
+    <input type="submit" value="Multiplicacion" (click)="ngResult()">     
+    {{result_multiplicacion}}
+</div><br>
+
+<div>
+    <input type="submit" value="Division" (click)="ngResult()">  
+    {{result_division1}}
+    {{result_division2}}
+</div><br>
+
+<div>
+    <input type="submit" value="Porcentaje" (click)="ngResult()">  
+    {{result_porcentaje1}}%
+    {{result_porcentaje2}}%
+</div><br>
+
+<div>
+    <input type="submit" value="π" (click)="ngResult()">  
+    {{result_PI1}}π
+    {{result_PI2}}π
+</div><br>
+
+<div>
+    <input type="submit" value="Sen" (click)="ngResult()"> 
+    {{result_sen1}}Sen 
+    {{result_sen2}}Sen 
+</div><br>
+
+<div>
+    <input type="submit" value="Cos" (click)="ngResult()">  
+    {{result_cos1}}Cos
+    {{result_cos2}}Cos
+</div><br>
+
+<div>
+    <input type="submit" value="Tan" (click)="ngResult()">
+    {{result_tan1}}Tan
+    {{result_tan2}}Tan
+</div><br>
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
